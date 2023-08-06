@@ -1,0 +1,109 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    {% block head %}
+
+    {% endblock %}
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header">
+
+              <div class="social-media-links">
+               <a href="https://instagram.com/gadjet_chechersk?igshid=MzRlODBiNWFlZA=="><img src="{% static 'gadjetapp/img/inst-icon.svg' %}" alt="inst-icon" class="header-inst-icon"></a>
+               <a href="https://vk.com/ggadjett"><img src="{% static 'gadjetapp/img/vk-icon.svg' %}" alt="vk-icon" class="header-vk-icon"></a>
+              </div>
+
+              <div class=" header-logo">
+                  <img src="{% static 'gadjetapp/img/GADJET-logo.svg' %}" alt="GADJET-logo">
+              </div>
+
+               <img src="{% static 'gadjetapp/img/tel-icon(h).svg' %}" alt="tel-icon" class="header-tel-icon">
+
+                                  <!--ваши контакты ,если что меняйте-->
+              <div class="contacts">
+                  <a href="tel:+375291511740" class="header-tel-link"> +375(29)151-17-40 </a>
+                  <a href="tel:+80233277307" class="header-tel-link"> +802332-7-73-07 </a>
+              </div>
+
+              <img src="{% static 'gadjetapp/img/clock-icon(h).svg' %}" alt="clock-icon" class="header-clock-icon">
+
+                                  <!--ваше расписание,меняйте сами текст если что-->
+              <div class="time">
+                  <p class="schedule">ВТ-ПТ 10:00-18:00;</p>
+                  <p class="schedule">СБ 10:00-14:00;</p>
+                  <p class="schedule"> ВС-ПН ВЫХОДНОЙ</p>
+              </div>
+
+      </div>
+    </div>
+   </header>
+
+
+   <section class="top-info">
+    <div class="container">
+        <div class="our-services">
+            <div class="our-services-top">
+                <hr class="line">
+                <h1 class="name" style="display: flex;">МАСТЕРСКАЯ <span style="color : #fd0e0e; margin-left: 2%;">GADJET</span></h1>
+            </div>
+            <div class="our-services-bottom">
+                <div class="services">
+                    <div class="services-list">
+                                <!--ваши услуги,меняйте сами текст если что-->
+                        <h1 class="services-text">МЫ ПРОИЗВОДИМ РЕМОНТ: <h1>
+                        <h2 class="services-text">-Компьютеров</h2>
+                        <h2 class="services-text">-Ноутбуков</h2>
+                        <h2 class="services-text">-Офисной техники</h2>
+                        <h2 class="services-text">-ЖК телевизоров</h2>
+                        <h2 class="services-text">-Фотоаппаратов</h2>
+                        <h2 class="services-text"> -Мобильных телефонов и Планшетов </h2>
+                        <h1 class="services-text">ПРОИЗВОДИМ ЗАПРАВКУ И ВОССТАНОВЛЕНИЕ ЛАЗЕРНЫХ КАРТРИДЖЕЙ</h1>
+                        </div>
+                    </div>
+
+
+                    <div class="img-box">
+                        <div class="img-services">
+                        <img src="{% static 'gadjetapp/img/comp-img.jpg' %}" alt="comp-img" >
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+     </div>
+ </section>
+  <section class="bottom-info">
+    <div class="container">
+    <hr class="line">
+    <h1 class="name">Как с нами связаться</h1>
+      <div class="mapsabout-us">
+        <div class="map">
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A18bd24032cb9474b18025ba3fb5eabdb4b52a65db7d2c8c54b1b3791818ef0b3&amp;source=constructor" width="1000" height="780" frameborder="0"></iframe>
+        </div>
+        <div class="about-us">
+          <div class="nomer">
+            <img src="{% static 'gadjetapp/img/phone-icon.svg' %}" alt="phone-icon" class="icon" >
+            <div class="box"> <pre > <h2 class="naming">контакты</h2><p><a class="description-link" href="tel:+375291511740" >+375(29)151-17-40;  </a><a class="description-link" href="tel:+77307">7-73-07</a></p></pre></div>
+          </div>
+          <div class="adress">
+            <img src="{% static 'gadjetapp/img/home-icon.svg' %}" alt="adress-icon"class="icon" >
+            <div class="boxx"> <h2 class="naming">наш адресс</h2><p class="description">г.Чечерск ул.Ленина 1</p></div>
+          </div>
+          <div class="rezim">
+            <img src="{% static 'gadjetapp/img/clock-icon.svg' %}"  alt="rezim-icon"class="icon" >
+            <div class="boxxx"> <h2 class="naming"> Режим работы</h2><p class="description">ВТ-ПТ 10:00-18:00; СБ 10:00-14:00; ВС-ПН ВЫХОДНОЙ</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+   <hr class="line-footer">
+   <h1 class="footer-name">МАСТЕРСКАЯ ГАДЖЕТ </h1>
+    <p class="footer-deviz">НАШ ДЕВИЗ-ТОЛЬКО КАЧЕСТВЕННЫЙ СЕРВИС!</p>
+  </footer>
+</body>
+</html></html>
