@@ -1,305 +1,325 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
-h1,h2,h3,h4 {
-    padding: 0;
-    margin: 0;
+h1,h2,h3,h4{
+  padding: 0;
+  margin: 0;
 }
-ul,ol {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+ul,ol{
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
-a {
-    text-decoration: none;
+a{
+  text-decoration: none;
 }
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  header{
-    background: black;
-    min-width: 320px;
-  }
-  .header{
-    display: flex;
-    align-items: center;
-  }
-  .social-media-links {
-    width: 13vw;
-    display: flex;
-    padding-right: 2%;
-  }
-  .header-inst-icon {
-    object-fit: cover;
-    width: 100%;
-  }
-  .header-vk-icon {
-    object-fit: cover;
-    width: 100%;
-  }
-  .header-logo {
-    object-fit: cover;
-    padding-right: 2%;
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header{
+  background: black;
+  min-width: 320px;
+}
+.header{
+  display: flex;
+  align-items: center;
+}
+.social-media-links{
+  width: 13vw;
+  display: flex;
+  padding-right: 2%;
+}
+.header-inst-icon{
+  object-fit: cover;
+  width: 100%;
+}
+.header-vk-icon{
+  object-fit: cover;
+  width: 100%;
+}
+.header-logo{
+  object-fit: cover;
+  padding-right: 2%;
 
+}
+.header-logo img{
+  width: 27vw;
+}
+.contacts{
+  width: 26vw;
+}
+.time{
+  width: 26vw;
+}
+.header-tel-icon{
+  width: 4vw;
+  padding-right: 3px;
+}
+.header-clock-icon{
+  width: 4vw;
+  padding-right: 3px;
+}
+.schedule{
+  color: #FFF;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 160%;
+  display: flex;
+}
+.header-tel-link{
+  color: #FFF;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 190%;
+  flex-direction: column;
+  display: flex;
+}
+.header-tel-link:hover{
+  border-bottom: 4px solid #FFF;
+}
+.top-info{
+  padding: 5% 0;
+}
+.line{
+  border: 1px solid black;
+  width: 25%;
+  margin: 0 auto 16px;
+}
+.our-services{
+  display: flex;
+  flex-direction: column;
+  background: #f6f6f6;;
+  min-width: 320px;
+  margin: 0 auto;
+  padding-bottom:5%;
+}
+.img-services{
+  padding: 0 2% 2% 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-services img{
+  width: 100%;
+  height: 100%;
+}
+.our-services-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.our-services-top{
+ margin: 0 auto;
+}
+.name {
+  font-family:Nunito Sans;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 160%;
+  padding-bottom: 7%;
   }
-  .header-logo img {
-    width: 27vw;
-  }
-  .contacts {
-    width: 26vw;
-  }
-  .time {
-    width: 26vw;
-  }
-  .header-tel-icon {
-    width: 4vw;
-    padding-right: 3px;
-  }
-  .header-clock-icon {
-    width: 4vw;
-    padding-right: 3px;
-  }
-  .schedule {
-    color: #FFF;
-    font-family: Nunito Sans;
-    font-size: 20px;
-    font-weight: 800;
-    line-height: 160%;
-    display: flex;
-  }
-  .header-tel-link{
-    color: #FFF;
-    font-family: Nunito Sans;
-    font-size: 20px;
-    font-weight: 800;
-    line-height: 190%;
-    flex-direction: column;
-    display: flex;
-  }
-  .header-tel-link:hover{
-    border-bottom: 4px solid #FFF;
-  }
-
-
-
-
-
-  .top-info{
-    padding: 5% 0;
-  }
-  .line{
-    border: 1px solid black;
-    width: 25%;
-    margin: 0 auto 16px;
-  }
-  .our-services{
-    display: flex;
-    flex-direction: column;
-    background: #f6f6f6;;
-    min-width: 320px;
-    margin: 0 auto;
-    padding-bottom:5%;
-  }
-  .img-services{
-    padding: 0 2% 2% 2%;
-    display: flex;
-    justify-content: center;
-   align-items: center;
-  }
-  .img-services img{
-    width: 100%;
-    height: 100%;
-  }
-  .our-services-bottom{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .our-services-top{
-    margin: 0 auto;
-  }
-  .name { font-family:Nunito Sans;
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 160%;
-    padding-bottom: 7%;
-  }
-
-  .services-text { font-family: Nunito Sans;
-    font-size: 20px;
-    font-weight: 800;
-    line-height: 160%;
-  }
-  .services:first-child{
-    width: 40%;
-    padding-left: 2%;
-  }
-  .services:last-child{
-    width: 60%;
-  }
-  .services-list{
-    max-width: 70%;
-    margin: 0 auto;
-  }
-
-
-
-
+.services-text {
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 160%;
+}
+.services:first-child{
+  width: 40%;
+  padding-left: 2%;
+}
+.services:last-child{
+ width: 60%;
+}
+.services-list{
+  max-width: 70%;
+  margin: 0 auto;
+}
 .bottom-info {
-   padding-top: 100px;
+  padding-top: 100px;
 }
-.mapsabout-us {display: flex;
-    max-width: 1980px;
-    margin: 0 auto;
+.mapsabout-us{
+  display: flex;
+  max-width: 1980px;
+  margin: 0 auto;
 }
-.about-us {
-    align-self: center;
-    padding-left: 150px;
+.about-us{
+  background: rgb(207, 199, 199);
+  display: flex;
+  align-items: center;
 }
-.nomer{
-    display: flex;
-    padding-bottom: 40px;
+iframe{
+  width: 100%;
+  border: 0;
+  height: 600px;
+  margin:4% 3% 2% 3%;
+  border-radius: 2%;
 }
-.adress{
-    display: flex;
+.map{
+  width: 65%;
 }
-.rezim{
-    display: flex;
-    padding-top: 40px;
+.about-us-info{
+  padding-left: 4%;
+  width: 25vw;
 }
-.naming{
-    color: #6c66a3;
-    font-family: Nunito Sans;
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 19% ;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-    padding-bottom: 5px;
+.info-div{
+  display: flex;
+  padding-top: 7%;
+  padding-left: 3%;
 }
-.description{
-    color: #000000;
-    font-family: Nunito Sans;
-    font-size: 25px;
-    font-weight: 800;
-    line-height: 19% ;
+.info-div1{
+  display: flex;
+  padding-top: 7%;
 }
 .icon{
-    padding: 15px;
+  width:15%;
 }
-.box{
-    margin-top: 10px;
+.icon1{
+  width:21%;
 }
-.boxx{
-    margin-top: 27px;
+.icon1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
-.boxxx{
-    margin-top: 25px;
+.icon img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
-.line-footer {border: 1px solid black;
-    margin: 0 auto 16px;
-    width: 100;
+.information{
+  color: #000000;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 190%;
+  text-transform: uppercase;
+  padding-left: 3%;
 }
-.footer-name {justify-content: center;
-    display: flex;   font-family: Nunito Sans;
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 190% ;
-    margin-top: 35px;
-
+.information1{
+  color: #000000;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 190%;
+  text-transform: uppercase;
+  align-self: center;
 }
-.footer-deviz {justify-content: center;
-    display: flex;   font-family: Nunito Sans;
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 190% ;
-    margin-top: 20px;
+.information a{
+  color: #000000;
+}
+.information a:hover{
+  border-bottom: 4px solid #fd0e0e;
+  border-radius: 11%;
+}
+.upper{
+  color: #fd0e0e;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 190% ;
+  text-transform: uppercase;
+}
+.upper1{
+  color: #fd0e0e;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 190% ;
+  text-transform: uppercase;
+  margin-right: 3%;
 }
 footer{
-padding-top: 100px;
+  padding-top: 3%;
 }
-.tel-link:hover {
-    border-bottom: 4px solid #FFF;
+.footer-name{
+  justify-content: center;
+  display: flex;   font-family: Nunito Sans;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 190% ;
+  margin-top: 2%;
 }
-.description-link:hover {
-    border-bottom: 4px solid  #6c66a3 ;
+.footer-deviz{
+  justify-content: center;
+  display: flex;
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 190% ;
+  margin:1% 0;
 }
-.description-link{
-     color: #000000;
-    font-family: Nunito Sans;
-    font-size: 25px;
-    font-weight: 800;
-    line-height: 19% ;
-}
-.gadjet{
-    max-width: 100%;
-    height: auto;
-
-}
-.vk{
-    max-width: 100%;
-    height: auto;
-}
-.inst{
-    max-width: 100%;
-    height: auto;
-
-}
-
-
-
 @media ( max-width: 1200px ) {
 .header-tel-link{
   font-size: calc(10px + ( 20 - 10 ) * ((100vw - 550px)  / (1200 - 550)));
 }
 .header-tel-link:hover{
   border-bottom:calc(2px + ( 4 - 2 ) * ((100vw - 550px)  / (1200 - 550)));
-   border-bottom: #FFF;
-   border-bottom: solid
+  border-bottom: #FFF;
+  border-bottom: solid
 }
-.schedule {
-    font-size: calc(10px + ( 20 - 10 ) * ((100vw - 550px)  / (1200 - 550)));
-    }
-    .services-text{font-size: calc(10px + ( 20 - 10 ) * ((100vw - 550px)  / (1200 - 550)));
-    }
+.schedule{
+  font-size: calc(10px + ( 20 - 10 ) * ((100vw - 550px)  / (1200 - 550)));
 }
-
-
-
-
-
+.services-text{
+  font-size: calc(10px + ( 20 - 10 ) * ((100vw - 550px)  / (1200 - 550)));
+}
+.services-text{
+  font-size: calc(10px + (20 - 10) * ((100vw - 550px) / (1200 - 550)));
+}
+iframe{
+  height: calc(300px + (600 - 300) * ((100vw - 550px) / (1200 - 550)));
+}
+.footer-deviz{
+  font-size: calc(15px + (30 - 15) * ((100vw - 320px) / (1200 - 320)));
+}
+.footer-name{
+  font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+}
+.information{
+  font-size: calc(10px + (15 - 10) * ((100vw - 550px) / (1200 - 550)));
+}
+.upper{
+  font-size: calc(10px + (15 - 10) * ((100vw - 550px) / (1200 - 550)));
+}
+.information1{
+  font-size: calc(10px + (15 - 10) * ((100vw - 550px) / (1200 - 550)));
+}
+.upper1{
+  font-size: calc(10px + (15 - 10) * ((100vw - 550px) / (1200 - 550)));
+}
+}
 @media ( max-width: 550px ){
-  .header{
+.header{
   display: flex;
   flex-direction: column;
-  }
-  .schedule {
-  font-size: 10px;
-  }
-  .header-tel-link{
-    font-size: 10px;
-  }
-  .header-tel-link:hover{
-    border-bottom: 2px solid #FFF;
-  }
-  .header-logo {
-    margin: 0 auto;
-    order: 0;
-    padding-top: 3%;
-    display: block;
-
-  }
-.header-logo img {
-  width: 90vw;
-  }
-
-.social-media-links {
-  width: 20vw;
-
 }
-.contacts {
+.schedule{
+  font-size: 10px;
+}
+.header-tel-link{
+  font-size: 10px;
+}
+.header-tel-link:hover{
+  border-bottom: 2px solid #FFF;
+}
+.header-logo{
+  margin: 0 auto;
+  order: 0;
+  padding-top: 3%;
+  display: block;
+}
+.header-logo img{
+  width: 90vw;
+}
+.social-media-links{
+  width: 20vw;
+}
+.contacts{
   width: 33vw;
   flex-direction: column;
   display: flex;
@@ -314,11 +334,11 @@ padding-top: 100px;
   padding-left: calc(1px + ( 74 - 1) * ((100vw - 320px) / (550 - 320)));
   padding-bottom: 1%;
 }
-.header-tel-icon {
+.header-tel-icon{
   width: 6vw;
   padding-bottom: 1%;
 }
-.header-clock-icon {
+.header-clock-icon{
   width: 6vw;
   padding-bottom: 1%;
 }
@@ -326,7 +346,6 @@ padding-top: 100px;
   display: flex;
   flex-direction: column;
 }
-
 .name{
   font-size:20px;
   padding-bottom: 5%;
@@ -336,18 +355,64 @@ padding-top: 100px;
   line-height: 130%;
 }
 .our-services-bottom{
-display: flex;
-flex-direction: column-reverse;
+  display: flex;
+  flex-direction: column-reverse;
 }
 .img-box{
-padding-bottom: 3%;
-height: calc(200px + (250 - 200) * ((100vw - 320px) / (550 - 320)));
-width: 90%;
+  padding-bottom: 3%;
+  height: calc(200px + (250 - 200) * ((100vw - 320px) / (550 - 320)));
+  width: 90%;
 }
 .img-services{
-object-fit: cover;
-width: 100%;
-height: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.about-us{
+  background: rgb(207, 199, 199);
+  flex-direction: column;
+  align-items: center;
+}
+iframe{
+  width: 94%;
+  border: 0;
+  height: 350px;
+  border-radius: 2%;
+}
+.map{
+  width: 100vw;
+}
+.about-us-info {
+  width: 100%;
+  object-fit: cover;
+  padding: 0 0 9% 0;
+}
+.info-div {
+  padding-top: 2%;
+}
+.info-div1 {
+  padding-right: 15%;
+}
+.icon {
+  width: 12vw;
+}
+.icon1 {
+  width: 17vw;
+}
+.information {
+  font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (550 - 320)));
+}
+.information1 {
+  font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (550 - 320)));
+}
+.upper {
+  font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (550 - 320)));
+}
+.upper1 {
+  font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (550 - 320)));
+}
+.footer-deviz{
+  font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (550 - 320)));
 }
 }
 
